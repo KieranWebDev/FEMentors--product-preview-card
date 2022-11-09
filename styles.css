@@ -31,6 +31,7 @@ body {
 .card-container {
   background-color: var(--white);
   max-width: 343px;
+  border-radius: 10px;
 }
 
 span,
@@ -39,10 +40,11 @@ del {
 }
 img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .text-container {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem;
 }
 
 .text-container .mini-heading {
@@ -51,22 +53,73 @@ img {
   letter-spacing: 5px;
   text-transform: uppercase;
   font-size: 0.8rem;
+  color: var(--aurometal);
 }
 
 .text-container h1 {
   font-size: 2rem;
   line-height: 2rem;
+  margin-bottom: 1rem;
 }
 .text-container p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 23px;
   font-weight: 500;
+  color: var(--aurometal);
+  margin-bottom: 1.5rem;
 }
 .price-flex-container {
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+.price-flex-container .price {
+  color: var(--aquamarine);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.price-flex-container del {
+  font-size: 0.8rem;
+  line-height: 23px;
 }
 .text-container button {
   width: 100%;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--aquamarine);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.text-container button:hover {
+  background-color: var(--aquamarineHover);
+}
+.text-container .cart {
+  height: 16px;
+  width: 14.5px;
+  margin-right: 0.8rem;
+  vertical-align: bottom;
+}
+@media (min-width: 800px) {
+  body {
+    height: 100vh;
+  }
+
+  .card-container {
+    display: flex;
+    max-width: 600px;
+  }
+  /* picture {
+    flex-basis: 50%;
+  } */
+  img {
+    width: 100%;
+    display: block;
+  }
 }
