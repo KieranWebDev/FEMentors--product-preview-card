@@ -115,11 +115,28 @@ img {
     display: flex;
     max-width: 600px;
   }
-  /* picture {
+  picture {
     flex-basis: 50%;
-  } */
-  img {
+  }
+  .main-img {
     width: 100%;
     display: block;
+    border-radius: 8px 0 0 8px;
+  }
+  .text-container {
+    flex-basis: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .text-container button {
+    height: 3rem;
+  }
+  .text-container .cart {
+    height: 16px;
+    width: 14.5px;
+    margin-right: 0.8rem;
+    vertical-align: middle;
   }
 }
