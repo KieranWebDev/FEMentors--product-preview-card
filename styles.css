@@ -54,6 +54,7 @@ img {
   text-transform: uppercase;
   font-size: 0.8rem;
   color: var(--aurometal);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text-container h1 {
