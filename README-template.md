@@ -2,7 +2,7 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
-# you can view the live site [here.](https://kieranwebdev.github.io/FEMentors-preview-card-project/)
+# you can view the live site [here.](https://kieranwebdev.github.io/FEMentors--product-preview-card/)
 
 ## Table of contents
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/2022-11-09%2013_41_00-Frontend%20Mentor%20_%20Stats%20preview%20card%20component.png)
+![](./images/2022-11-10%2008_52_30-Frontend%20Mentor%20_%20Product%20preview%20card%20component.png)
 
 ### Links
 
