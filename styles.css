@@ -84,6 +84,9 @@ img {
 .price-flex-container del {
   font-size: 0.8rem;
   line-height: 23px;
+  color: var(--aurometal);
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 .text-container button {
   width: 100%;
@@ -137,6 +140,7 @@ img {
     height: 16px;
     width: 14.5px;
     margin-right: 0.8rem;
-    vertical-align: middle;
+    vertical-align: text-top;
+    display: inline-block;
   }
 }
