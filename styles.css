@@ -24,8 +24,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0;
   font-family: 'Fraunces', serif;
+  margin: 1rem 0;
 }
 
 .card-container {
@@ -113,6 +113,7 @@ img {
 @media (min-width: 800px) {
   body {
     height: 100vh;
+    margin: 0;
   }
 
   .card-container {
